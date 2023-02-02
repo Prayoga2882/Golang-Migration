@@ -6,7 +6,7 @@ import (
 )
 
 func NewDB() *sql.DB {
-	db, err := sql.Open("mysql", "root:secret@tcp(localhost:3306)/golang-migration")
+	db, err := sql.Open("mysql", "root:secret@tcp(localhost:3306)/golang_migration")
 	helper.Panic(err)
 
 	return db

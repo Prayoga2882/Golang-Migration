@@ -2,6 +2,8 @@ package helper
 
 import "database/sql"
 
+// fix_this_shit !!!
+
 func CommitOrRollback(tx *sql.Tx) {
 	err := recover()
 	if err != nil {

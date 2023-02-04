@@ -15,6 +15,8 @@ type CategoryControllerImpl struct {
 	CategoryService service.CategoryService
 }
 
+// fix_this_shit !!!
+
 func NewCategoryController(categoryService service.CategoryService) *CategoryControllerImpl {
 	return &CategoryControllerImpl{
 		CategoryService: categoryService,

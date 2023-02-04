@@ -5,6 +5,8 @@ import (
 	"net/http"
 )
 
+// fix_this_shit !!!
+
 func ReadFromRequestBody(request *http.Request, result interface{}) {
 	decoder := json.NewDecoder(request.Body)
 	err := decoder.Decode(result)

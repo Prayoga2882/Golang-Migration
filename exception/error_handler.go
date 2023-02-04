@@ -7,6 +7,8 @@ import (
 	"net/http"
 )
 
+// fix_this_shit !!!
+
 func ErrorHandler(writer http.ResponseWriter, request *http.Request, err interface{}) {
 
 	if notFoundError(writer, request, err) {

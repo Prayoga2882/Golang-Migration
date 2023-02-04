@@ -5,6 +5,8 @@ import (
 	"Golang-RestAPI/model/web"
 )
 
+// fix_this_shit !!!
+
 func ToCategoryResponse(category domain.Category) web.CategoryResponse {
 	return web.CategoryResponse{
 		Id:   category.Id,
